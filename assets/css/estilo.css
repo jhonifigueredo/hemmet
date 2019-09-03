@@ -150,7 +150,7 @@
 
 /* RODAPÉ */
 .rodape{
-    background-color: black;;
+    background-color: black;
 }
 .rodape__box{
     display: flex;
@@ -170,16 +170,30 @@
     font-size: 10px;
     padding: 5px 0;
 }
+.rodape__emmet-direitos{
+    padding: 10px 0;
+    font-size: 10px;
+    color: white;
+}
 .rodape__emmet-email{
     text-align: left;
     padding: 10px 0 5px 0;
     color: lightgray;
+    text-decoration: none;
 }
 
 .rodape__blog{
     padding: 15px;
     font-size: 12px;
     color: white;
+}
+.rodape__blog-link{
+    text-decoration: none;
+    color: white;
+}
+.rodape__blog-italico{
+    font-style: italic;
+    color:lightgray;
 }
 .rodape__blog-quebra{
     padding: 10px 0;
@@ -193,11 +207,9 @@
     display: flex;
     flex-direction: row;
 }
-
 .rodape__imagens > a{
     text-decoration: none;
     display: block;
     padding: 5px;
 }
-
 }
